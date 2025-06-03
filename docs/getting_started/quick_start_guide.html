@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S85W3KT8YB"></script>
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-S85W3KT8YB",{anonymize_ip:!0})</script><link rel="stylesheet" href="/assets/css/styles.2d10bb83.css">
-<script src="/assets/js/runtime~main.4a1dccf1.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.46722733.js" defer="defer"></script>
 <script src="/assets/js/main.07ac28a1.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -31,16 +31,20 @@
 </li>
 <li>
 <p><strong>Turn OpenKeyNav on</strong></p>
+<ul>
+<li>After the page loads, press <code>Shift + o</code> to turn OpenKeyNav on/off. To avoid accidental activation, OpenKeyNav&#x27;s shortcuts are disabled by default, in compliance with <a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts" target="_blank" rel="noopener noreferrer">WCAG Success Criterion 2.1.4 character key shortcuts</a>.</li>
+</ul>
 </li>
-</ol>
-<p>After the page loads, press <code>Shift + o</code> to turn OpenKeyNav on/off. To avoid accidental activation, OpenKeyNav&#x27;s shortcuts are disabled by default, in compliance with <a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts" target="_blank" rel="noopener noreferrer">WCAG Success Criterion 2.1.4 character key shortcuts</a>.
-2. <strong>Navigate with Keyboard Shortcuts</strong>:</p>
+<li>
+<p><strong>Navigate with Keyboard Shortcuts</strong>:</p>
 <ul>
 <li><strong>Enter Click Mode</strong>: Press <code>k</code> to label clickable elements with keyboard shortcuts. Press the key combinations on the labels to &quot;click&quot; the respective buttons.</li>
 <li><strong>Navigate Headers</strong>: Press <code>h</code> to navigate through headers within the viewport. You can also press <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, or <code>6</code> to navigate through headers of the respective levels.</li>
 <li><strong>Cycle Scrollable Regions</strong>: Press <code>s</code> to cycle through different scrollable regions within the viewport.</li>
 <li><strong>Drag-and-Drop Mode</strong>: Press <code>m</code> to enter drag mode, enabling keyboard-accessible drag-and-drop. This labels pre-configured draggable elements with keyboard shortcuts and their applicable drop zones.</li>
 </ul>
+</li>
+</ol>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="disabling-debug-mode-for-production">Disabling Debug Mode for Production<a class="hash-link" aria-label="Direct link to Disabling Debug Mode for Production" title="Direct link to Disabling Debug Mode for Production" href="/docs/getting_started/quick_start_guide#disabling-debug-mode-for-production">​</a></h2>
 <p>By default, OpenKeyNav initiates in debug mode, which adds red labels to elements that are mouse-clickable but not tab-focusable. These elements are not WCAG-compliant, since they are not keyboard accessible. The elements with black labels are keyboard accessible. This enables you to identify the elements that need remediation.</p>
 <p>To disable debug mode for production, update the initialization code as follows:</p>
