@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocsite=self.webpackChunkdocsite||[]).push([[8121],{8070:s=>{s.exports=JSON.parse('{"tags":[{"label":"Basics","permalink":"/blog/tags/basics","description":"Introductions and practical OpenKeyNav fundamentals","count":1}]}')}}]);
