@@ -11,28 +11,25 @@
         <id>https://openkeynav.com/blog/welcome</id>
         <link href="https://openkeynav.com/blog/welcome"/>
         <updated>2024-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenKeyNav gives developers an open-source JavaScript toolkit for adding an optional keyboard interaction layer to websites and web applications.]]></summary>
-        <content type="html"><![CDATA[<p>OpenKeyNav gives developers an open-source JavaScript toolkit for adding an optional keyboard interaction layer to websites and web applications.</p>
+        <summary type="html"><![CDATA[OpenKeyNav is an open-source JavaScript library that adds on-demand keyboard operation and navigation modes to websites and web apps.]]></summary>
+        <content type="html"><![CDATA[<p>OpenKeyNav is an open-source JavaScript library that adds on-demand keyboard operation and navigation modes to websites and web apps.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-openkeynav">Why OpenKeyNav?<a class="hash-link" aria-label="Direct link to Why OpenKeyNav?" title="Direct link to Why OpenKeyNav?" href="https://openkeynav.com/blog/welcome#why-openkeynav">​</a></h2>
-<p>People who cannot or do not use a mouse need keyboard access. This group includes people who use alternative input devices through a keyboard interface. Developers often make dense interfaces and drag-and-drop interactions depend on a pointer.</p>
-<p>OpenKeyNav adds keyboard paths for those interactions. Developers must also provide semantic HTML, native controls, established keyboard conventions, and accessibility testing.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features-of-openkeynav">Key Features of OpenKeyNav<a class="hash-link" aria-label="Direct link to Key Features of OpenKeyNav" title="Direct link to Key Features of OpenKeyNav" href="https://openkeynav.com/blog/welcome#key-features-of-openkeynav">​</a></h3>
+<p>People use keyboard interfaces through physical keyboards, switches, voice input, screen readers, and other assistive technologies. Web teams need repeatable ways to provide direct keyboard action, navigation, and movement across the experiences they build.</p>
+<p>OpenKeyNav provides that shared interaction layer:</p>
 <ul>
-<li><strong>On-demand target labels:</strong> OpenKeyNav can display short labels that provide a direct route to detected controls in dense interfaces.</li>
-<li><strong>Complex interactions:</strong> Configured keyboard drag-and-drop and movement modes can provide an alternative to pointer-only operation.</li>
-<li><strong>Customizable activation keys:</strong> Developers can adapt the mode keys to their application and test for browser, operating-system, and assistive-technology conflicts.</li>
-<li><strong>Development diagnostics:</strong> OpenKeyNav debug labels flag likely mouse-only targets for manual investigation. Developers must verify every result.</li>
-<li><strong>Optional interaction layer:</strong> Users can enable or disable the shortcuts and keep using conventional keyboard behavior.</li>
+<li><strong>Click Mode</strong> labels detected targets for direct focus or activation.</li>
+<li><strong>Move Mode</strong> maps application-defined sources and destinations to a keyboard workflow.</li>
+<li><strong>Navigation commands</strong> create direct routes through headings, scrollable regions, and page structure.</li>
+<li><strong>Configurable commands</strong> give applications one place to manage activation, interaction, movement, and exit keys.</li>
+<li><strong>Focused diagnostics</strong> identify actions for manual review of semantics, focus, activation, and task completion.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started" href="https://openkeynav.com/blog/welcome#getting-started">​</a></h2>
-<p>Start with one interaction. Preserve its conventional keyboard behavior and evaluate the complete task before expanding the integration.</p>
-<p>Follow the <a href="https://openkeynav.com/docs/getting_started/quick_start_guide" target="_blank" rel="noopener noreferrer">Getting Started Guide</a> to install and initialize OpenKeyNav.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comprehensive-documentation">Comprehensive Documentation<a class="hash-link" aria-label="Direct link to Comprehensive Documentation" title="Direct link to Comprehensive Documentation" href="https://openkeynav.com/blog/welcome#comprehensive-documentation">​</a></h2>
-<p>Developers can find setup instructions, examples, configuration options, limitations, and testing guidance in the <a href="https://openkeynav.com/docs/intro" target="_blank" rel="noopener noreferrer">OpenKeyNav documentation</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-ahead">Looking Ahead<a class="hash-link" aria-label="Direct link to Looking Ahead" title="Direct link to Looking Ahead" href="https://openkeynav.com/blog/welcome#looking-ahead">​</a></h2>
-<p>Maintainers use implementation work, research, and adopter feedback to improve OpenKeyNav interactions, documentation, and test coverage.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a class="hash-link" aria-label="Direct link to Feedback" title="Direct link to Feedback" href="https://openkeynav.com/blog/welcome#feedback">​</a></h2>
-<p>Developers can report implementation problems and documentation gaps through the OpenKeyNav project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="keyboard-accessibility-standards">Keyboard accessibility standards<a class="hash-link" aria-label="Direct link to Keyboard accessibility standards" title="Direct link to Keyboard accessibility standards" href="https://openkeynav.com/blog/welcome#keyboard-accessibility-standards">​</a></h2>
+<p>WCAG 2.1.1 requires all functionality to be operable through a keyboard interface. OpenKeyNav helps teams build and verify keyboard paths for detected targets and configured workflows, covering each required action, state change, and outcome in the complete task.</p>
+<p>State and local government teams can also connect this work to the federal WCAG 2.1 Level AA timeline through the <a href="https://openkeynav.com/docs/ada-title-ii-keyboard-accessibility" target="_blank" rel="noopener noreferrer">ADA Title II keyboard accessibility guide</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting started<a class="hash-link" aria-label="Direct link to Getting started" title="Direct link to Getting started" href="https://openkeynav.com/blog/welcome#getting-started">​</a></h2>
+<p>Follow the <a href="https://openkeynav.com/docs/getting_started/quick_start_guide" target="_blank" rel="noopener noreferrer">Quick Start Guide</a> to install OpenKeyNav, exercise Click Mode, verify detected actions, and configure specialized workflows.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="research-and-development">Research and development<a class="hash-link" aria-label="Direct link to Research and development" title="Direct link to Research and development" href="https://openkeynav.com/blog/welcome#research-and-development">​</a></h2>
+<p>OpenKeyNav grows through implementation work, accessibility research, adopter feedback, and evaluation with disabled users. Developers can report implementation problems and documentation gaps through the <a href="https://github.com/LDubya/OpenKeyNav" target="_blank" rel="noopener noreferrer">OpenKeyNav GitHub repository</a>.</p>
 <p><strong>The OpenKeyNav Team</strong></p>]]></content>
         <author>
             <name>The OpenKeyNav Team</name>
