@@ -31,7 +31,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting started<a class="hash-link" aria-label="Direct link to Getting started" title="Direct link to Getting started" href="https://openkeynav.com/blog/welcome#getting-started">​</a></h2>
 <p>Follow the <a href="https://openkeynav.com/docs/getting_started/quick_start_guide" target="_blank" rel="noopener noreferrer">Quick Start Guide</a> to install OpenKeyNav, exercise Click Mode, verify detected actions, and configure specialized workflows.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="research-and-development">Research and development<a class="hash-link" aria-label="Direct link to Research and development" title="Direct link to Research and development" href="https://openkeynav.com/blog/welcome#research-and-development">​</a></h2>
-<p>OpenKeyNav grows through implementation work, accessibility research, adopter feedback, and evaluation with disabled users. Report implementation problems and documentation gaps through the <a href="https://github.com/LDubya/OpenKeyNav" target="_blank" rel="noopener noreferrer">OpenKeyNav GitHub repository</a>.</p>
+<p>OpenKeyNav grows through implementation work, accessibility research, adopter feedback, and evaluation with disabled users. Share implementation questions, reproducible issues, and documentation feedback through the <a href="https://github.com/LDubya/OpenKeyNav" target="_blank" rel="noopener noreferrer">OpenKeyNav GitHub repository</a>.</p>
 <p><strong>The OpenKeyNav Team</strong></p>]]></content:encoded>
             <category>Basics</category>
         </item>
