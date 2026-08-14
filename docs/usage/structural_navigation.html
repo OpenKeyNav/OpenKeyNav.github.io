@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S85W3KT8YB"></script>
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-S85W3KT8YB",{anonymize_ip:!0})</script><link rel="stylesheet" href="/assets/css/styles.69d675f9.css">
-<script src="/assets/js/runtime~main.35c8a03d.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.b33bba2f.js" defer="defer"></script>
 <script src="/assets/js/main.23603501.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -98,14 +98,17 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="keylabels-show-available-routes">Keylabels show available routes<a class="hash-link" aria-label="Direct link to Keylabels show available routes" title="Direct link to Keylabels show available routes" href="/docs/usage/structural_navigation#keylabels-show-available-routes">​</a></h2>
 <p>While Structural Navigation is the foreground mode, keylabels describe the focus routes available from the current target:</p>
 <ul>
-<li><code>⇧⇥</code> and <code>⇥</code> identify the previous and next native Tab destinations;</li>
+<li><code>⇧⇥</code> and <code>⇥</code> identify the previous and next native Tab destinations only
+when that move crosses the direct semantic-context boundary used by
+horizontal region navigation; familiar in-context Tab movement remains
+unlabeled;</li>
 <li><code>⇧←</code> and <code>⇧→</code> identify available previous and next semantic regions;</li>
 <li><code>⇧↑</code> and <code>⇧↓</code> identify available shallower and deeper heading-level destinations when those commands focus a different target;</li>
 <li>explicitly configured context-start commands identify their destinations with their configured chords;</li>
 <li><code>↵</code> identifies Enter as the preferred activation key for a native control or focusable ARIA widget, while <code>⎵</code> appears when Space is the sole standard activation key; and</li>
 <li>native radio groups use <code>←↑</code> for the previous radio and <code>→↓</code> for the next, or <code>↔↕</code> for the single peer in a two-radio group.</li>
 </ul>
-<p>Tab, Shift+Tab, Enter, Space, and native radio-arrow behavior remain browser-owned. A target receives at most one label. Ownership-override arrows and configured context-start chords can use three symbols; other labels remain limited to two. When two symbols mean “or,” a divider separates them; chord symbols such as <code>⇧←</code> remain joined. A native Tab route takes priority when it reaches the same destination as a structural route. An explicitly configured context-start route then takes priority over converging arrow routes.</p>
+<p>Tab, Shift+Tab, Enter, Space, and native radio-arrow behavior remain browser-owned. A target receives at most one label. Ownership-override arrows and configured context-start chords can use three symbols; other labels remain limited to two. When two symbols mean “or,” a divider separates them; chord symbols such as <code>⇧←</code> remain joined. A labeled native Tab boundary route takes priority when it reaches the same destination as a structural route. An explicitly configured context-start route then takes priority over converging arrow routes.</p>
 <p>The actively focused target&#x27;s keylabel uses the configured focus color, darkened only as needed for at least 4.5:1 contrast with white text. Its thin white border and pointer remain consistent with other dark keylabels. Destination labels retain the normal <code>spot</code> palette. While a displayed modifier is held, its symbol highlights as a pressed key in every relevant label and returns to its normal treatment on release. This applies to both <code>⇧</code> and the configured ownership override, such as <code>⌥</code>. Set <code>keylabels.tab</code>, <code>contextJump</code>, <code>horizontal</code>, <code>vertical</code>, <code>nativeArrows</code>, or <code>activation</code> to <code>false</code> to hide one group, or set <code>keylabels.enabled</code> to <code>false</code> to hide all structural keylabels.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="keyboard-ownership">Keyboard ownership<a class="hash-link" aria-label="Direct link to Keyboard ownership" title="Direct link to Keyboard ownership" href="/docs/usage/structural_navigation#keyboard-ownership">​</a></h2>
 <p>Native <code>Tab</code>, <code>Shift+Tab</code>, <code>Enter</code>, <code>Space</code>, and bare arrow behavior passes through. Text editors, native selects, range and number inputs, radio groups, and ARIA composite widgets retain their character, arrow, and Escape interaction where applicable.</p>
